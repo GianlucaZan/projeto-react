@@ -1,5 +1,6 @@
 import './App.css';
 import Frase from './components/Frase';
+import List from './components/List';
 import Pessoa from './components/Pessoa';
 import SayMyName from './components/SayMyName';
 
@@ -19,6 +20,7 @@ function App() {
               idade="29"
               profissao="Programador"
               foto="https://via.placeholder.com/150" />
+      <List />
     </div>
   );
 }
